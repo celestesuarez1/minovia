@@ -1,0 +1,132 @@
+html
+body {
+    margin          : 0%;
+    padding         : 60px;
+    font-family     : Arial, Helvetica, sans-serif;
+    align-content: center;
+    background-color: transparent;
+    background-image: url(fondo1.jpg)
+}
+
+.container {
+    margin: -5%;
+    position       : static;
+    flex-flow      : column nowrap;
+    justify-content: space-around;
+}
+
+.container .title {
+    font-size: 35px;
+}
+
+.container .buttons {
+    margin-top : 50px;
+    margin-left: -130px;
+}
+
+.container .buttons .btn {
+    position        : absolute;
+    padding         : 10px 20px;
+    font-size       : 18px;
+    color           : white;
+    border          : none;
+    border-radius   : 3px;
+    margin: 1px 0;
+    padding: 12px 25px;
+    background: linear-gradient(to right, #ff6699, #ffccff);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+}
+
+.container .buttons>#btnno {
+    margin-left: 70px;
+    padding: 12px 20px;
+}
+
+/*********/
+img {
+    width: 80%;
+    padding: 60px;
+}
+body {
+    background-color: transparent;
+    background-image: url(fondo.png)
+}
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 70px 12px;
+    background-color: ;
+    color: #406163;
+}
+
+.pokemon-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cp-text span {
+    font-size: 16px;
+}
+
+.img-container {
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 30px 60px;
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 100%;
+    margin-top: -150px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.seperator {
+    border-color: #ffccff !important;
+    border-width: 10px;
+    border-radius: 5px;
+}
+.stats span.first {
+    border-right:1px solid #eee
+}
+
+.attributes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+.cp-text {
+    padding-right: 10px;
+    border-right: 1px solid #eee;
+    margin: 0;
+}
+.cp-text:last-child {
+    border: none;
+}
+.player-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
+.data-container p {
+    margin-bottom: 0;
+}
